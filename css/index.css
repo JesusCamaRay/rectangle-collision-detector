@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  align-content: space-around;
+  background-color: #edf2f4;
+  color: #2b2d42;
+  display: grid;
+  justify-items: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  word-wrap: break-word;
+}
+
+#collision-alert {
+  visibility: hidden;
+  color: #ff220c;
+}
